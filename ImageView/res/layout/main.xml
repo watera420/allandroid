@@ -12,6 +12,16 @@
         android:maxHeight="10px"
         android:maxWidth="100px"
         android:scaleType="center"
-        android:src="@drawable/test_image_view_pic1" />
+        android:src="@drawable/images" />
+    
+    <ImageView
+        android:id="@+id/test_image_view2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:maxHeight="10px"
+        android:maxWidth="100px"
+        android:scaleType="fitEnd"
+        android:src="@drawable/images" />
 
 </LinearLayout>
